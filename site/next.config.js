@@ -4,7 +4,7 @@ const nextConfig = {
   output: 'export',
   distDir: '../public',
   env: {
-    name: 'kuzco201\'s regsitry',
+    name: 'kuzco201\'s registry',
     description: 'The official store for kuzco201\'s custom Kasm supported workspaces.',
     icon: '/img/logo.svg',
     listUrl: 'https://kuzco201.github.io/kasm-registry/',
