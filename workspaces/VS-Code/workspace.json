@@ -12,18 +12,8 @@
   ],
   "compatibility": [
     {
-      "version": "1.18.x",
-      "image": "kasmweb/vs-code:1.18",
-      "uncompressed_size_mb": 2428,
-      "available_tags": [
-        "develop",
-        "1.18.0"
-      ]
-
-    },
-    {
-      "version": "node",
-      "image": "kuzco201/vs-code:node",
+      "version": "latest",
+      "image": "kuzco201/vs-code:latest",
       "uncompressed_size_mb": 2528,
       "available_tags": [
         "develop",
