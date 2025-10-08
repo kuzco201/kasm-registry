@@ -37,6 +37,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: workspaces/${{ matrix.workspace }}
-          file: Dockerfile
+          file: workspaces/${{ matrix.workspace }}/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/kasm:${{ matrix.workspace }}
