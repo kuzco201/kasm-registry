@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'workspaces/*/Dockerfile'
+  workflow_dispatch:
 
 jobs:
   build-and-push:
