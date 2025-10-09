@@ -16,4 +16,4 @@ RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
 USER 1000
 
 # Default command (inherited from base image)
-# CMD ["/startup.sh"]
+CMD ["/startup.sh"]
