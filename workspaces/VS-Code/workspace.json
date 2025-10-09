@@ -10,7 +10,7 @@
       "version": "1.17.x",
       "image": "kuzco201/kasm:VS-Code",
       "uncompressed_size_mb": 2528,
-      "available_tags": ["VS-Code"]
+      "available_tags": ["develop"]
     }
   ],
   "run_config": {
