@@ -1,22 +1,12 @@
 {
-  "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
+  "description": "VS Code with Node.js LTS for web development.",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "vs-code.png",
-  "categories": [
-    "Development"
-  ],
-  "friendly_name": "Visual Studio Code",
-  "architecture": [
-    "amd64"
-  ],
-  "compatibility": [
-    {
-      "version": "1.17.x",
-      "image": "kuzco201/kasm:VS-Code",
-      "uncompressed_size_mb": 2528,
-      "available_tags": [
-        "develop"
-      ]
-    }
-  ]
+  "categories": ["Development"],
+  "friendly_name": "VS Code + Node.js",
+  "architecture": ["amd64"],
+  "run_config": {
+    "image": "kuzco201/kasm:VS-Code",
+    "port": 6901
+  }
 }
